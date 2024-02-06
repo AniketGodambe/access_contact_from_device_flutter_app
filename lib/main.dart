@@ -1,5 +1,6 @@
 // import 'package:contacts_service/contacts_service.dart';
 
+import 'package:access_contact_from_device_flutter_app/test_page.dart';
 import 'package:fast_contacts/fast_contacts.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(),
+      home: const TestWidget(),
     );
   }
 }
